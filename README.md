@@ -36,30 +36,37 @@ Additional Features:
 Below is a view of the file structure deployed to GitHub.
 
 ```plaintext
-Social-Network-API/
+
+NETWORK-API/
 │
 ├── config/
 │   └── connection.js        # MongoDB connection setup
 │
 ├── controllers/
-│   ├── thoughtController.js  # Controller for thought and reaction handling
-│   └── userController.js     # Controller for user and friend handling
+│   ├── thoughtController.js  # Controller for thought and reaction logic
+│   └── userController.js     # Controller for user and friend management
 │
 ├── models/
-│   ├── index.js              # Model associations
+│   ├── Reaction.js           # Reaction schema definition
 │   ├── Thought.js            # Thought model definition
-│   └── User.js               # User model definition
+│   ├── User.js               # User model definition
+│   └── index.js              # Model associations
 │
 ├── routes/
 │   ├── api/
 │   │   ├── thoughtRoutes.js   # Routes for thought management
-│   │   └── userRoutes.js      # Routes for user and friend management
+│   │   ├── userRoutes.js      # Routes for user and friend management
+│   │   └── index.js           # Main API route handler
 │   └── index.js               # Main API route handler
 │
 ├── utils/
-│   └── data.js               # Mock data for testing
+│   ├── data.js               # Mock data for testing
+│   ├── seed.js               # Seeding database with data
+│   └── index.js              # Index for utility functions
 │
-├── .env                      # Environment variables
+├── node_modules/             # Node.js dependencies (auto-generated)
+│
+├── .env                      # Environment variables (not tracked by Git)
 ├── .gitignore                # Git ignore file
 ├── package-lock.json         # Lockfile for installed dependencies
 ├── package.json              # Project metadata and dependencies
