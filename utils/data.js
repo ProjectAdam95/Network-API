@@ -1,3 +1,4 @@
+// Array of user data with username, email, thoughts, and friends
 const users = [
   {
     "username": "jdoe",
@@ -31,6 +32,7 @@ const users = [
   }
 ];
 
+// Array of thought data with text, username, and reactions
 const thoughts = [
   {
     "thoughtText": "This is a random thought from jdoe.",
@@ -66,4 +68,5 @@ const thoughts = [
   }
 ];
 
+// Export users and thoughts data
 module.exports = { users, thoughts };

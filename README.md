@@ -146,7 +146,7 @@ If you're unable to resolve an issue, feel free to contact me or leave a comment
 
 Below is a preview of the API in action.
 
-- Click here to view preview video/gif!: 
+- Click here to view preview video/gif!: https://jumpshare.com/v/o4dIqstxUmmXHiZxREcA?b=cq1WtVSaRLReVEw3ElPR
 
 ## :star2: Credit/Acknowledgment
 
